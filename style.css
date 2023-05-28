@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+ body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+ }
+
+ .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1030af;
+    align-items: center;
+ }
+
+ .part2 {
+    background-color: rgb(216, 216, 86);
+ }
+
+ .part3 {
+    background-color:rgb(196, 4, 4);
+ }
+
+ .modal-container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(233, 255, 32, 0.633);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .modal-details {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 3rem;
+    color: #1E2337;
+ }
+
+ .modal-details i {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: gray;
+ }
+
+ .modal-titre {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+ }
+
+ .code {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 1rem;
+ }
+
+ .btn-success {
+    height: 4rem;
+    background-color: rgb(231, 171, 61);
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+ }
+
+ .modal-container {
+   display: none;
+ }
+
+ .code {
+   display: none;
+ }
